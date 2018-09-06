@@ -1,3 +1,27 @@
+/* blue: #4F87B3
+yellow: #F2C238
+red: #F56154
+green: #87B34F
+ 
+Dark gray background: #434343 */
+
 body {
-	background: #CCCCCC;
+	background: #434343;
+	color: white;
+}
+
+.green-text {
+	color: #87B34F;
+}
+
+.red-text {
+	color: #F56154;
+}
+
+.yellow-text {
+	color: #F2C238;
+}
+
+.blue-text {
+	color: #4F87B3;
 }
