@@ -6,15 +6,6 @@
         <link rel="stylesheet" href="css/main.css" />
         <link rel="icon" href="img/favicon.ico">
         <title>Color Flash Game</title>
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-          ga('create', 'UA-73084896-1', 'auto');
-          ga('send', 'pageview');
-        </script>
     </head>
     <body class="container">
         <img class="img-responsive" src="img/banner.png" />
@@ -46,5 +37,19 @@
     	<h2 class="red-text">Contact Us</h2>
     	<p>If you have any questions, comments, or concerns about the game, feel free to contact us using the email below.</p>
     	<p>Email: <a href="mailto:davsan56@gmail.com">davsan56@gmail.com</a></p>
+        
+        <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyCuj_5SkB9pVfe0QsjOvIL27GoVeyqbMOQ",
+            authDomain: "color-flash-game-2529e.firebaseapp.com",
+            databaseURL: "https://color-flash-game-2529e.firebaseio.com",
+            projectId: "color-flash-game-2529e",
+            storageBucket: "color-flash-game-2529e.appspot.com",
+            messagingSenderId: "629464281119"
+          };
+          firebase.initializeApp(config);
+        </script>
     </body>
 </html>
